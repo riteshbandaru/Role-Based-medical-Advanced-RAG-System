@@ -10,7 +10,7 @@
 
 **A sophisticated Retrieval-Augmented Generation (RAG) system designed for healthcare professionals, featuring multi-vector hybrid search, knowledge graph integration, and chain-of-thought reasoning capabilities.**
 
-[🚀 Live Demo](https://role-based-medical-advanced-rag-system-69x3p2dcrk3rm6hcnpsp6a.streamlit.app/) • [📖 Documentation](#documentation) • [⚡ Quick Start](#quick-start)
+[🚀 Live Demo](https://role-based-medical-advanced-rag-system-69x3p2dcrk3rm6hcnpsp6a.streamlit.app/) 
 
 </div>
 
@@ -38,10 +38,6 @@
 - **AI-Powered Summarization** - Automatic document summarization and analysis
 - **Vector Embeddings** - High-quality document representations for semantic search
 
-### 📊 **Analytics & Monitoring**
-- **Real-Time Performance Tracking** - Query processing times and success rates
-- **Usage Analytics** - User behavior and system performance insights
-- **Knowledge Graph Visualization** - Interactive exploration of medical knowledge connections
 
 ---
 
@@ -249,16 +245,6 @@ GET  /graph/search          # Search entities
 
 ---
 
-## 📈 Performance Metrics
-
-- ⚡ **Query Response Time:** < 2 seconds average
-- 🎯 **Retrieval Accuracy:** 95%+ with hybrid search
-- 📊 **System Uptime:** 99.9% availability
-- 🔍 **Search Precision:** 92% relevant results
-- 🧠 **Knowledge Graph:** 10,000+ medical entities
-
----
-
 ## 🔧 Configuration
 
 ### Environment Variables
@@ -286,32 +272,7 @@ API_URL=http://localhost:8000
 DEBUG=True
 ```
 
----
 
-## 🧪 Testing
-
-### Run Backend Tests
-```bash
-cd server
-pytest tests/ -v
-```
-
-### Run Frontend Tests
-```bash
-cd client
-streamlit run main.py --server.headless true
-```
-
-### Load Testing
-```bash
-# Install artillery
-npm install -g artillery
-
-# Run load tests
-artillery run tests/load-test.yml
-```
-
----
 
 ## 🚀 Deployment
 
@@ -326,8 +287,8 @@ docker build -t healthcare-rag-frontend ./client
 ```
 
 ### Production Deployment
-- **Backend:** Deploy to Render, Heroku, or AWS
-- **Frontend:** Deploy to Streamlit Cloud, Heroku, or Netlify
+- **Backend:** Deployed on Render
+- **Frontend:** Deployed to Streamlit Cloud
 - **Database:** MongoDB Atlas or self-hosted
 - **Vector DB:** Pinecone cloud service
 
@@ -335,19 +296,7 @@ docker build -t healthcare-rag-frontend ./client
 
 ## 🤝 Contributing
 
-We welcome contributions! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
-3. **Commit your changes** (`git commit -m 'Add amazing feature'`)
-4. **Push to the branch** (`git push origin feature/amazing-feature`)
-5. **Open a Pull Request**
-
-### Development Guidelines
-- Follow PEP 8 for Python code
-- Add tests for new features
-- Update documentation
-- Ensure backward compatibility
+We welcome contributions! 
 
 ---
 
@@ -369,28 +318,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ---
 
 ## 📞 Support
-
-- **Issues:** [GitHub Issues](https://github.com/your-username/healthcare-rag-system/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/your-username/healthcare-rag-system/discussions)
-- **Email:** your-email@example.com
+- **Email:** riteshbandaru27@gmail.com
 
 ---
-
-## 🔮 Roadmap
-
-- [ ] **Multi-language Support** - Support for multiple languages
-- [ ] **Voice Interface** - Voice-based queries and responses
-- [ ] **Mobile App** - React Native mobile application
-- [ ] **Advanced Analytics** - Enhanced analytics dashboard
-- [ ] **Integration APIs** - EHR system integrations
-- [ ] **Offline Mode** - Offline capabilities for critical functions
-
----
-
-<div align="center">
 
 **⭐ Star this repository if you found it helpful!**
 
 Built with ❤️ for healthcare professionals worldwide
 
-</div>
